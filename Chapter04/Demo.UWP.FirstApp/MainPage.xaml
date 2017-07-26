@@ -1,0 +1,12 @@
+﻿<Page
+    x:Class="Demo.UWP.FirstApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock Text="Hello UWP App!"
+                    FontSize="40"
+                    FontWeight="Bold"
+                    Foreground="Green"/>
+    </Grid>
+</Page>

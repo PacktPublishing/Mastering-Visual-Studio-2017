@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="Demo.UWP.Panels.RelativePanel.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <RelativePanel>
+        <Border x:Name="redBorder" Background="Red" 
+                Width="300" Height="150"/>
+        <Border x:Name="greenBorder" Background="Green" 
+                Width="300" Height="150" 
+                RelativePanel.Below="redBorder"/>
+        <Border x:Name="blueBorder" Background="Blue" 
+                Width="300" Height="150" 
+                RelativePanel.Below="redBorder" 
+                RelativePanel.RightOf="greenBorder"/>
+        <Border x:Name="yellowBorder" Background="Yellow" 
+                Width="300" Height="150" 
+                RelativePanel.AlignTopWithPanel="True" 
+                RelativePanel.RightOf="blueBorder"/>
+    </RelativePanel>
+</Page>

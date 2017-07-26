@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="Demo.UWP.Panels.VariableSizedWrapGrid.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+<VariableSizedWrapGrid Orientation="Horizontal" 
+                       MaximumRowsOrColumns="5">
+    <Border Background="Orange" Margin="4" 
+            Width="100" Height="100" />
+    <Border Background="Orange" Margin="4" 
+            Width="100" Height="100" />
+    <Border Background="Orange" Margin="4" 
+            Width="100" Height="208" 
+            VariableSizedWrapGrid.RowSpan="2"/>
+    <Border Background="Orange" Margin="4" 
+            Width="208" Height="100" 
+            VariableSizedWrapGrid.ColumnSpan="2"/>
+    <Border Background="Orange" Margin="4"
+            Width="100" Height="100" />
+    <Border Background="Orange" Margin="4" 
+            Width="100" Height="100" />
+    <Border Background="Orange" Margin="4" 
+            Width="100" Height="100" />
+    <Border Background="Orange" Margin="4" 
+            Width="100" Height="100" />
+</VariableSizedWrapGrid>
+</Page>

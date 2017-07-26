@@ -1,0 +1,1 @@
+D:\Cloud Storage\OneDrive\Mastering Visual Studio 2017\B06554_Chapter 4\B06554_04_Code\Demo.UWP.Package.VisualAssets\AppPackages\11. Demo.UWP.Package.VisualAssets_1.1.1.0\11. Demo.UWP.Package.VisualAssets_1.1.1.0_x86_x64_arm.appxbundle

@@ -1,0 +1,12 @@
+﻿<Page
+    x:Class="Demo.UWP.Views.FlipView.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <FlipView>
+        <Image Source="Assets/WP_001.jpg" />
+        <Image Source="Assets/WP_002.jpg" />
+        <Image Source="Assets/WP_003.jpg" />
+        <Image Source="Assets/WP_004.jpg" />
+    </FlipView>
+</Page>
